@@ -420,6 +420,16 @@ section {
   color: #050d18;
 }
 
+.skills .progress .skill-desc{
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+}
+
 .skills .progress .skill .val {
   float: right;
   font-style: normal;
