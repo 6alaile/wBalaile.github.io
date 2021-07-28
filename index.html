@@ -3,28 +3,31 @@
 
 <!--
   General
-  - site favicon
-  - 
+  - replace site favicon
+  - replace profile images (x3)
   
   Layout
-  - replace dev images
-  - edit icons
+  - hide unused portfolio tabs
+  - replace portfolio images (add screenshot of project)
   - footer
+    #Hire Me Button (form/email to)
+    #Portfolio Section
+    - Images (GIFs where applicable) for completed projects
+    - titles for projects
+    - add links to portfolio page on image preview
 
   Copy
-  - introduction to sections
-  - about section bullet points
-  - facts section rename & activities
-  - portfolio section categories
-  - description of services offered
-
-  Portfolio Section
-  - Images for completed projects
-  - titles for projects
-  - add links to portfolio page on image preview
-
-  Hire Me Button
-  - form/email to
+    #About
+    - Introduction
+    - Format bio section
+    - Complete bullet points
+    - Blurb, counters, icons and descriptions of random facts
+    - Experience Points blurb
+    #Portfolio
+    - rename filter categories
+    - rename projects
+    #Services
+    - description of services offered
 
   Pages
   - Keep Default portfolio-details page unlinked
@@ -40,6 +43,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Portfolio website of William Mujuni Balaile (@wilby_mj)">
   <meta name="keywords" content="William Mujuni Balaile, Balaile, Web Developer, Front End Developer, Back End Developer, Fullstack Developer, Tanzania, Dar es Salaam">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-608SL7WZDE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-608SL7WZDE');
+  </script>
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -393,7 +405,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Risk Management Calculator - Front End Web Application"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Risk Management Calculator; Front-End Web Application"><i class="bx bx-plus"></i></a>
                 <a href="pages/forex-calculator.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -433,8 +445,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Video Production"><i class="bx bx-plus"></i></a>
-                <a href="pages/portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="V.I.C - Issa Party; Video Production"><i class="bx bx-plus"></i></a>
+                <a href="pages/its-a-party.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -499,7 +511,7 @@
 
         <div class="row">
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-            <div class="icon"><i class="bi bi-briefcase"></i></div>
+            <div class="icon"><i class="bi bi-file-earmark-code"></i></div>
             <h4 class="title"><a href="">Web Development</a></h4>
             <p class="description">
               Creating websites, web apps or DApps that are accessible by any device using code, content management 
@@ -507,7 +519,7 @@
             </p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-card-checklist"></i></div>
+            <div class="icon"><i class="bi bi-palette"></i></div>
             <h4 class="title"><a href="">Web Design</a></h4>
             <p class="description">
               Find out why people are drawn to your brand (product or service) via User Experience research and implement 
@@ -523,24 +535,25 @@
             </p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><i class="bi bi-binoculars"></i></div>
+            <div class="icon"><i class="bi bi-compass"></i></div>
             <h4 class="title"><a href="">Social Media Strategy</a></h4>
             <p class="description">
-              Instagram, Facebook and LinkedIn to grow following and engagement rates. Campaigns.
+              Campaigns to promote your recently created/completed project.
+              Instagram, Facebook and LinkedIn to grow following and increase engagement rates. 
             </p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon"><i class="bi bi-brightness-high"></i></div>
-            <h4 class="title"><a href="">Content Creation</a></h4>
+            <div class="icon"><i class="bi bi-film"></i></i></div>
+            <h4 class="title"><a href="">Visual Production</a></h4>
             <p class="description">
-              Audio and Visual (Still and Motion).
-              Text.
+              Visual (Still and Motion images). Pre-production, on-set and post-production.
             </p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-            <h4 class="title"><a href="">User Interface Design</a></h4>
+            <div class="icon"><i class="bi bi-soundwave"></i></div>
+            <h4 class="title"><a href="">Audio Production</a></h4>
             <p class="description">
+              Mixing and mastering.
             </p>
           </div>
         </div>
